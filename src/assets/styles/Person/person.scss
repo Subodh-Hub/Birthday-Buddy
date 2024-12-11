@@ -1,0 +1,35 @@
+.person {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  .image-container {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .description {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-weight: 300;
+      font-size: 1.4rem;
+      padding: 3px 0 3px 0;
+    }
+    p {
+      padding: 3px 0 3px 0;
+      color: #64748b;
+    }
+  }
+}
